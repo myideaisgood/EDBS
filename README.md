@@ -79,5 +79,7 @@ python train.py --gpu_num=0 --N_way=5 --K_shot=5 --query_num=15 --evaluate_task=
 
 The trained model will be saved in the following directory : experiments/default/ckpt
 
+We provide the code in the case for MAML / miniImagenet.
+
 ## Citation
 If you use the work released here for your research, please cite this paper. (Will be added later)
