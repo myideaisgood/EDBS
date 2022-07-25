@@ -22,18 +22,18 @@ difficulty. Through our EDBS, few-shot networks become less biased to the easy e
 
 ## Brief Description of Our Proposed Method
 ### Framework of our compresion scheme
-<p align="center"><img src="figure/framework.png" width="700"></p>
+<p align="center"><img src="figure/framework.png" width="800"></p>
 
 The overall framework of our method. The base classifier is initially trained with dataset D_{base} to generate a feature space that has simialr-looking classes, close in terms of thhe feature distance. With the obtained feature space, we can determine a set of classes as easy or hard. Through p, the episode generator controls the ratio of easy and hard episodes used for training the few-shot network.
 
 
 ## Experimental Results
 
-<p align="center"><img src="figure/result_table.png" width="600"></p>
+<p align="center"><img src="figure/result_table.png" width="800"></p>
 
 Few-shot classification accuracies on various dataset. The best results are in bold.
 
-<p align="center"><img src="figure/visualization.png" width="600"></p>
+<p align="center"><img src="figure/visualization.png" width="900"></p>
 
 Visualization of generated easy and hard episodes. Each row shows the result for teiredImageNet and CUB200.
 
